@@ -10,7 +10,6 @@
 <body>
 
   <!-- Header Showcase -->
-  <!-- Header Comment -->
 <header id="showcase" class="grid">
 
   <div class="bg-img">
@@ -25,11 +24,7 @@
 
   <div class="bg-image"></div>
   <div class="content-wrap">
-<<<<<<< HEAD
     <h1>Welcome To Sigma Trip</h1>
-=======
-    <h1>Welcome To Sigma Trip</h1>
->>>>>>> 9321cd82b5beb05c802ef68e0d36b46963060ae9
     <p>Reconnect to the joy of travel with confidence . With affordable , flexible and risk free bookings.</p>
     <a href="#section-a" class="btn">Read More</a>
   </div>
