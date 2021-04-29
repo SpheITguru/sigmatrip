@@ -94,7 +94,7 @@ if (! empty($_POST["Sign in"])) {
      <?php
         print "env via \$_ENV is: ".$_ENV["DB_HOST"]."\n";
         print "env via getenv is: ".getenv("DB_HOST")."\n";
-    ?>
+        ?>
     </p>
 </body>
 
