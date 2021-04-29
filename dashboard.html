@@ -1,0 +1,257 @@
+<html><head>
+	<title>Sigma Trip</title>
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<!-- Import lib -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+	<!-- End import lib -->
+
+	<link rel="stylesheet" type="text/css" href="styled.css">
+<style type="text/css">/* Chart.js */
+@keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}</style></head>
+<body class="overlay-scrollbar light">
+	<!-- navbar -->
+	<div class="navbar">
+		<!-- nav left -->
+		
+		<!-- end nav left -->
+		<!-- form -->
+		<form class="navbar-search">
+			<input type="text" name="Search" class="navbar-search-input" placeholder="What you looking for...">
+			<i class="fas fa-search"></i>
+		</form>
+		<!-- end form -->
+		<!-- nav right -->
+		<ul class="navbar-nav nav-right">
+			
+			<li class="nav-item mode">
+				<form>
+					<a href="index.html"><input style="margin:15"; type="submit" value="Logout"></a>
+				</form>
+			</li>
+            
+            <li class="nav-item mode">
+				<p> Welcome <b>sphephelo</b></p>
+			</li>
+            
+			<li style="margin:-5"; class="nav-item mode">
+				<a class="nav-link" href="#" onclick="switchTheme()">
+					<i class="fas fa-moon dark-icon"></i>
+					<i class="fas fa-sun light-icon"></i>
+				</a>
+			</li>
+			
+			
+		</ul>
+		<!-- end nav right -->
+	</div>
+	<!-- end navbar -->
+	<!-- sidebar -->
+	
+	<!-- end sidebar -->
+	<!-- main content -->
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-3 col-m-6 col-sm-6">
+				<div style="background-image: url('house.jpg');background-repeat: no-repeat;" class="counter bg-primary">
+					<p>
+						<i class="fas fa-tasks"></i>
+					</p>
+					<h3>100+</h3>
+					<p>To do</p>
+				</div>
+			</div>
+			<div class="col-3 col-m-6 col-sm-6">
+				<div  style="background-image: url('house2.jpg');background-repeat: no-repeat;" class="counter bg-warning">
+					<p>
+						<i class="fas fa-tasks"></i>
+					</p>
+					<h3>100+</h3>
+					<p>In progress</p>
+				</div>
+			</div>
+			<div class="col-3 col-m-6 col-sm-6">
+				<div  style="background-image: url('house3.jpg');background-repeat: no-repeat;" class="counter bg-success">
+					<p>
+						<i class="fas fa-tasks"></i>
+					</p>
+					<h3>100+</h3>
+					<p>Completed</p>
+				</div>
+			</div>
+			<div  class="col-3 col-m-6 col-sm-6">
+				<div style="background-image: url('house4.jpg');background-repeat: no-repeat;" class="counter bg-danger">
+					<p>
+						<i class="fas fa-bug"></i>
+					</p>
+					<h3>100+</h3>
+					<p>Issues</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8 col-m-12 col-sm-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							Your Trips
+						</h3>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+					<div class="card-content">
+						<table>
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Hotels</th>
+									<th>Places</th>
+									<th>Status</th>
+									<th>Due date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Southern Sun</td>
+									<td>Durban</td>
+									<td>
+										<span class="dot">
+											<i class="bg-success"></i>
+											Completed
+										</span>
+									</td>
+									<td>17/07/2020</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>The Oyster Box</td>
+									<td>uMhlanga</td>
+									<td>
+										<span class="dot">
+											<i class="bg-warning"></i>
+											In progress
+										</span>
+									</td>
+									<td>18/07/2020</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Beverly Hills</td>
+									<td>uMhlanga</td>
+									<td>
+										<span class="dot">
+											<i class="bg-warning"></i>
+											In progress
+										</span>
+									</td>
+									<td>17/07/2020</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>The Table Bay</td>
+									<td>Cape Town</td>
+									<td>
+										<span class="dot">
+											<i class="bg-danger"></i>
+											Delayed
+										</span>
+									</td>
+									<td>07/07/2020</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>Umkumbe Bush Lodge</td>
+									<td>Mpumalanga</td>
+									<td>
+										<span class="dot">
+											<i class="bg-primary"></i>
+											Pending
+										</span>
+									</td>
+									<td>20/08/2020</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td>Jozini Tiger Lodge</td>
+									<td>Jozini</td>
+									<td>
+										<span class="dot">
+											<i class="bg-primary"></i>
+											Pending
+										</span>
+									</td>
+									<td>20/08/2020</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-4 col-m-12 col-sm-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							Book Your Trip
+						</h3>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+					
+					<div class="card-content">
+
+						<form>
+								<div class="inputBX">
+								<span style="font-size: 25px">Hotel</span>
+								<input style="width:100%; padding:10px 20px" type"text" name="hotel" required>
+								</div>
+								<div>
+								<span style="font-size: 25px">Places</span>
+								<input style="width:100%; padding:10px 20px" type"text" name="places" required>
+								</div>
+								<div>
+								<span style="font-size: 25px">Select date</span>
+								<input style="width:100%; padding:10px 20px" type="date" id="start" name="trip-start">
+								</div>
+								<div>
+									<input style="background-color: #4CAF50; /* Green */
+  											border: none;
+  											color: white;
+  											padding: 15px 32px;
+  											text-align: center;
+  											text-decoration: none;
+ 											display: inline-block;
+  											font-size: 16px;" type="submit" value="Book Now">
+								</div>
+
+						</form>
+						
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-m-12 col-sm-12">
+				<div class="card">
+					<div class="card-header">
+						<h3>
+							Charts
+						</h3>
+					</div>
+					<div class="card-content"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+						<canvas id="myChart" height="500" width="1194" style="display: block; width: 1194px; height: 500px;" class="chartjs-render-monitor"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end main content -->
+	<!-- import script -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	<script src="index.js"></script>
+	<!-- end import script -->
+
+</body></html>

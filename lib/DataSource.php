@@ -17,9 +17,9 @@ namespace Phppot;
 class DataSource
 {
 
-    const HOST = 'localhost';
+    const HOST = 'sigmadb.c4jjb69nyyua.af-south-1.rds.amazonaws.com';
 
-    const USERNAME = 'amin';
+    const USERNAME = 'root';
 
     const PASSWORD = 'test';
 
