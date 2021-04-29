@@ -26,7 +26,7 @@ if (! empty($_POST["signup-btn"])) {
         <div class="contentBx">
             <div class="formBx">
                 <h2>Register</h2>
-                <form name="sign-up" action="" method="post"
+                <form name="sign-up" action="" method="POST"
                 onsubmit="return signupValidation()">
                 
                     <!-- php -->
@@ -71,7 +71,7 @@ if (! empty($_POST["signup-btn"])) {
                         <input type="submit" value="Sign Up" name="signup-btn">
                     </div>
                     <div class="inputBx">
-                        <p class="login-registration-text">Have an account? <a href="login.html">Sign In</a></p>
+                        <p class="login-registration-text">Have an account? <a href="login.php">Sign In</a></p>
                     </div>
                 </form>
             </div>

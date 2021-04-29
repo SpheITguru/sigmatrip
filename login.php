@@ -48,7 +48,7 @@ if (! empty($_POST["Sign in"])) {
                         <input type="submit" value="Sign in" name="">
                     </div>
                     <div class="inputBx">
-                        <p class="login-registration-text">Don't have an account? <a href="register.html">Sign up</a></p>
+                        <p class="login-registration-text">Don't have an account? <a href="register.php">Sign up</a></p>
                     </div>
                 </form>
                 <h3>Login with social media</h3>
