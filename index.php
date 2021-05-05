@@ -27,7 +27,7 @@
 
   <div class="bg-image"></div>
   <div class="content-wrap">
-    <h1>Welcome To Sigma Trip 20211</h1>
+    <h1>Welcome To Sigma Trip</h1>
     <p>Reconnect to the joy of travel with confidence . With affordable , flexible and risk free bookings.</p>
     <a href="#section-a" class="btn">Read More</a>
   </div>
