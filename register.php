@@ -1,12 +1,3 @@
-<?php
-use Phppot\Member;
-if (! empty($_POST["signup-btn"])) {
-    require_once './Model/Member.php';
-    $member = new Member();
-    $registrationResponse = $member->registerMember();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,27 +19,6 @@ if (! empty($_POST["signup-btn"])) {
                 <h2>Register</h2>
                 <form name="signup-btn" action="" method="POST"
                 onsubmit="return signupValidation()">
-                
-                    <!-- php -->
-                    <?php
-    if (! empty($registrationResponse["status"])) {
-        ?>
-                    <?php
-        if ($registrationResponse["status"] == "error") {
-            ?>
-				    <div class="server-response error-msg"><?php echo $registrationResponse["message"]; ?></div>
-                    <?php
-        } else if ($registrationResponse["status"] == "success") {
-            ?>
-                    <div class="server-response success-msg"><?php echo $registrationResponse["message"]; ?></div>
-                    <?php
-        }
-        ?>
-				<?php
-    }
-    ?>
-    <!-- /php-->
-
 
                     <div class="inputBx">
                         <span>Username</span>
