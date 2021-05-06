@@ -7,8 +7,8 @@
     {
         echo 'Button was clicked';
         
-        $username = $_POST['username']);
-        $password = $_POST['password']);
+        $Uname = $_POST['username']);
+        $PWD = $_POST['password']);
 
         
     }
