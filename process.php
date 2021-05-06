@@ -4,10 +4,10 @@
 
     if(isset($_POST['submit']))
     {
-        $username = mysqli_real_escape_string($_POST['username'], $con);
-        $email = mysqli_real_escape_string($_POST['email'], $con);
-        $password = mysqli_real_escape_string($_POST['password'], $con);
-        $cpassword = mysqli_real_escape_string($_POST['cpassword'], $con);
+        $username = mysqli_real_escape_string($con, $_POST['username']);
+        $email = mysqli_real_escape_string($con, $_POST['email']);
+        $password = mysqli_real_escape_string($con, $_POST['password']);
+        $cpassword = mysqli_real_escape_string($con, $_POST['cpassword']);
 
         echo $username, $email, $password, $cpassword;
     }
