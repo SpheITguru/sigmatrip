@@ -36,7 +36,7 @@
                         <label><input type="checkbox" name=""> Remember me</label>
                     </div>
                     <div class="inputBx">
-                        <a href="dashboard.html"> <input type="submit" value="Sign in" name=""> </a>
+                        <a href="dashboard.html"> <input type="submit" value="Sign in" name="submit"> </a>
                     </div>
                     <div class="inputBx">
                         <p class="login-registration-text">Don't have an account? <a href="register.php">Sign up</a></p>
