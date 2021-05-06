@@ -49,7 +49,7 @@
         <div class="contentBx">
             <div class="formBx">
                 <h2>Register</h2>
-                <form action = "process.php" method = "post">
+                <form action = "register.php" method = "post">
                     <div class="inputBx">
                         <span>Username</span>
                         <input type="text" name="username" required>
