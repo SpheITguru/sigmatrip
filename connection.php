@@ -1,7 +1,7 @@
 <?php 
 
 
-    $con = mysqli_connect($_ENV["DB_HOST"],$_ENV["DB_USER"],$_ENV["DB_PASSWORD"],'sigmadb');
+    $con = mysqli_connect(getenv("DB_HOST"),getenv("DB_USER"),getenv("DB_PASSWORD"),'sigmadb');
 
     if(!$con)
     {
@@ -10,6 +10,6 @@
        
 
     }
-    echo $_ENV["DB_HOST"];
+    echo getenv("DB_HOST");
 
 ?>
