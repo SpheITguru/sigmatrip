@@ -16,7 +16,7 @@
         <div class="contentBx">
             <div class="formBx">
                 <h2>Register</h2>
-                <form>
+                <form action = "process.php" method = "post">
                     <div class="inputBx">
                         <span>Username</span>
                         <input type="text" name="username" required>
@@ -35,7 +35,7 @@
                     </div>
                     
                     <div class="inputBx">
-                        <input type="submit" value="Sign Up" name="">
+                        <input type="submit" value="Sign Up" name="submit">
                     </div>
                     <div class="inputBx">
                         <p class="login-registration-text">Have an account? <a href="login.php">Sign In</a></p>
