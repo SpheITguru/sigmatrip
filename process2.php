@@ -1,8 +1,7 @@
 <?php
 
-    require_once('connection.php');
-
-echo 'Starting the page';
+    echo 'Starting the page';
+    require_once('connection.php');  
 
     if(isset($_POST['submit']))
     {
