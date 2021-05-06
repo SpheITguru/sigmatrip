@@ -116,9 +116,9 @@
       <ul>
         <li>Contact number - 032 5522 452</li>
         <li>Information quires </li>
-        <li>info@sigma.co.za</li>
+        <li>info@sigmatrip.publicvm.com</li>
         <li>Customer care</li>
-        <li>Customercare@sigma.co.za</li>
+        <li>Customercare@sigmatrip.publicvm.com</li>
     </div>
     <div class="box">
       <h2 class="content-title" style="padding: 0">About Our Company</h2>
