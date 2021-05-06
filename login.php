@@ -17,7 +17,7 @@
         <div class="contentBx">
             <div class="formBx">
                 <h2>Login</h2>
-                <form name="signup-btn" action="process2.php" method="POST"
+                <form name="signup-btn" action="dashboard.html" method="POST"
                 onsubmit="return signupValidation()">
 
                     <?php if(!empty($loginResult)){?>
