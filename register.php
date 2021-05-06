@@ -38,7 +38,7 @@
                         <input type="submit" value="Sign Up" name="">
                     </div>
                     <div class="inputBx">
-                        <p class="login-registration-text">Have an account? <a href="login.html">Sign In</a></p>
+                        <p class="login-registration-text">Have an account? <a href="login.php">Sign In</a></p>
                     </div>
                 </form>
             </div>
