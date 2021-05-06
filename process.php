@@ -15,7 +15,7 @@
         }else 
         {
             $pass=md5($password);
-            $sql = "insert into users (username, email, password) values('$username', '$email', '$pass');
+            $sql = "insert into users (username, email, password) values ('$username', '$email', '$pass')";
             $result = mysqli_query($con, $sql);
             
             if($result)
